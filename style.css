@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial,Helvetica,sans-serif;
+}
+header {
+    background-image: url(Fotos/Fondo.jpg);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 50px 24px;
+    overflow: hidden;
+    background-color:transparent;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: black;
+    margin-block-start: 2px;
+    margin-block-end: 2px;
+    margin-inline-start: 80px;
+    margin-inline-end: 80px;
+    padding-block-start: -50px;
+    font-weight: 800;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    
+}
+
+li a:hover {
+    color: rgb(188, 176, 146);
+}
+
+.Logo {
+    position: relative;
+    display: block;
+    margin: auto;
+    padding: auto; 
+    width: 800px;
+    animation: animar;
+    animation-duration: 1.5s;
+}
+
+@keyframes animar {
+    0%{
+        transform: scale(.3);
+    }
+}
+
+.fondo{
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5f9882b460c998530433195a/1603830486584-5WEZJLKJFT47STLT2U9C/_MG_6827.jpg");
+}
+
+.espacio {
+    height: 100px;
+}
+
+.espacio2 {
+    height: 50px;
+}
+
+.espacio3 {
+    height: 200px;
+}
+
+.centrado {
+    text-align: center;
+    font-weight: 800;
+    font-size: 85px;
+    letter-spacing: 6px;
+    line-height: 80px;
+    padding: 40px;
+}
+
+.elmenu1 {
+    float: left;
+    width: 600px;
+    padding-inline-start: 200px;
+}    
+
+.elmenu2 {
+    float: right;
+    width: 600px;
+    padding-inline-end: 200px;
+}
+
+.tipo_empanadas {
+    color: #bcb092;
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    line-height: 20px;
+    padding-block-start: 15px; 
+    padding-block-end: 5px; 
+}
+
+
+h3 {
+    font-weight: 800;
+    font-size: 17px;
+    height: 17px;
+    letter-spacing: 1.7px;
+    line-height: 17px;
+    margin-block-end: 17px;
+    margin-block-start: 17px;
+}
+
+p {
+    color: black;
+    font-family: ff-good-headline-web-pro-condensed;
+    text-align: justify;
+    font-size: 17px;
+    letter-spacing: .15px;
+    line-height: 25px;
+    margin-block-end: 17px;
+    margin-block-start: 17px;
+    overflow-wrap: break-word;
+}
+
+.azulejos {
+    width: 100%;
+    padding-block-start: 60px;
+    padding-block-end: 10px;
+    padding-inline-start: 15px; 
+    padding-inline-end: 15px;
+}
+
+.NM {
+    text-align: center;
+    color: #bcb092;
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    line-height: 20px;
+    padding-block-start: 15px; 
+    padding-block-end: 5px; 
+}
+
+.NMtexto {
+    color: black;
+    font-family: ff-good-headline-web-pro-condensed;
+    text-align: center;
+    font-size: 17px;
+    letter-spacing: .15px;
+    line-height: 25px;
+    margin-block-end: 17px;
+    margin-block-start: 17px;
+    overflow-wrap: break-word;
+}
+
+
+.NMfoto {
+    width: 90%;
+    padding-inline-start: 150px;
+
+}
+
+#Logo {
+    display: block;
+    margin: auto;
+    padding: auto; 
+    width: 350px;
+}
+
+#Logo2 {
+    display: block;
+    margin: auto;
+    padding: auto; 
+    width: 200px;
+}
+
+#SQA {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    line-height: 20px;
+    padding-block-start: 15px; 
+    padding-block-end: 5px; 
+}
+
+p .copy {
+    text-align: center;
+    white-space: pre-wrap;
+    font-family: ff-good-headline-web-pro-condensed;
+    color: #bcb092;
+    font-size: 17px;
+    line-height: 25px;
+}
+p .textoLinks {
+    font-family: ff-good-headline-web-pro-condensed;
+    color: #636363;
+    text-align: center;
+    white-space: pre-wrap;
+    font-size: 17px;
+    line-height: 25px;
+}
